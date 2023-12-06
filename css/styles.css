@@ -1,0 +1,39 @@
+body {
+  background-color: #fcdce3;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  margin: 20px 10px;
+}
+hr {
+  width: 80%;
+  margin: 10px auto;
+}
+
+a {
+  color: #b2626a;
+}
+
+img {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.container a {
+  flex: 1;
+  text-align: center;
+}
